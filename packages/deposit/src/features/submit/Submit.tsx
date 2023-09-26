@@ -69,7 +69,7 @@ const Submit = () => {
       submitKey: formConfig.submitKey,
       targetRepo: formConfig.target.map( t => t.repo ).join(' '),
       targetAuth: formConfig.target.map( t => t.auth ).join(' '),
-      targetKeys: targetKeys.join(' '),
+      targetKeys: targetKeys,
     });
   };
 
